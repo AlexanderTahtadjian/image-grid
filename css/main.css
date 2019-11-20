@@ -34,12 +34,14 @@ img {
 section {
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 25em) {
 
-  div .photo {
+  .photo {
     display: inline-block;
+    width: 50%;
   }
 
 }
@@ -58,7 +60,7 @@ section {
     line-height: 1.5;
   }
 
-  div .photo {
+  .photo {
     display: inline-block;
     vertical-align: middle;
   }
