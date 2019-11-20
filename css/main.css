@@ -52,6 +52,14 @@ section {
     width: 50%;
   }
 
+  .photo:nth-child(2) {
+    display: block;
+  }
+
+  .photo:nth-child(5) {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -74,11 +82,6 @@ section {
 
   html {
     line-height: 1.5;
-  }
-
-  .photo {
-    display: inline-block;
-    vertical-align: middle;
   }
 
   .photo:first-child {
