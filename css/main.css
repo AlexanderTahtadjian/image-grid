@@ -21,7 +21,12 @@ body {
   margin: auto 0;
 }
 
-.photo {
+img {
+  display: block;
+  width: 100%
+}
+
+section {
   margin: 0;
   display: flex;
 }
