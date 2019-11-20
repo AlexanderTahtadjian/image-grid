@@ -31,6 +31,14 @@ img {
   width: 100%;
 }
 
+.photo:nth-child(2) {
+  display: none;
+}
+
+.photo:nth-child(5) {
+  display: none;
+}
+
 section {
   margin: 0;
   display: flex;
@@ -52,6 +60,13 @@ section {
     line-height: 1.4;
   }
 
+  .photo:nth-child(2) {
+    display: block;
+  }
+
+  .photo:nth-child(5) {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 60em) {
