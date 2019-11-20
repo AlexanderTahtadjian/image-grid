@@ -67,6 +67,7 @@ section {
   .photo:nth-child(5) {
     display: block;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
